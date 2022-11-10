@@ -48,8 +48,10 @@ Double click the robot to show the robot panel Select Paint gun as the Tool Fram
 Rename the first target as Home by pressing F2. Alternatively, select ToolsRename item. Move the robot closer to one edge of the part (by dragging the tool using the Alt key, entering coordinates or jogging the axis manually) In this example we used the following robot joint coordinates [0,0,200,180,0,180] deg. Select Program Teach Target (Ctrl+T) or the appropriate button in the toolbar to create a new target Rename the target to Approach as shown in step 7 Select the Home target and the Approach target alternatively to see the robot moving between the two targets Right click the target and select Teach Current Position (Alt+double click) if a different position needs to be recorded for one of the targets Right click the target and select Target Options… (F3) to open the target options window shown in the next image.
 
 ### PROGRAM:
-def Main_program():
 ```
+Developed by: Mothesh M
+Reg no: 212221230066
+def Main_program():
   
   #--------------------------
   # Add your default header and subprograms here
@@ -101,7 +103,7 @@ def Main_program():
   # End of main program
   ```
   
-###Simulation:
+### SIMULATION:
 ![IMG-20221110-WA0003](https://user-images.githubusercontent.com/94170892/201006453-51ab6022-ddb0-4226-aabb-c6a78ad0ec67.jpg)
 ![IMG-20221110-WA0004](https://user-images.githubusercontent.com/94170892/201006480-114a7864-d575-4464-80db-56231fdb4ace.jpg)
 ![IMG-20221110-WA0006](https://user-images.githubusercontent.com/94170892/201006511-d63d1327-1020-4355-9749-1dfd2a7d52e1.jpg)
